@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.left {
+    cursor: pointer;
+    padding: 20px 50px;
+}
+
+.right {
+    padding: 20px 50px;
+
+}
+
+.left img {
+    width: 170px;
+}
+
+.right ul {
+    display: flex;
+}
+
+.right ul li {
+    cursor: pointer;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+}
+
+.right ul li img {
+    width: 15px;
+}
+
+.content {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+    gap: 30px;
+
+}
+
+content {
+    max-width: 75vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    padding: 34px;
+
+}
+
+
+
+
+
+.lang {
+    background-color: rgb(249, 249, 249);
+    width: 20vw;
+    height: 157px;
+    padding: 14px 20px;
+
+
+
+}
+
+.lang h1 {
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.lang .downloads {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bit {
+    padding: 10px;
+    text-align: center;
+    background-color: #00b6d1;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+
+
+}
+
+.bits {
+    cursor: pointer;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: rgb(122, 246, 122);
+    border-radius: 10px;
+    color: aliceblue;
+
+
+}
+
+.lang p {
+    font-size: large;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 5px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 47px;
+    padding: 21px;
+    gap: 28px;
+
+}
+
+.first {
+    font-size: 48px;
+}
+
+.second {
+    font-size: 24px;
+    text-align: center;
+    width: 900px;
+}
+
+.first img {
+    margin: 0 23px;
+    width: 100px;
+}
+
+section .third {
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 9px;
+    background-color:#00b6d1;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: small;
+    font-weight:900;
+}
+
+box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4px;
+    gap: 28px;
+
+}
+
+box .fourth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 80vw;
+}
+
+box .fourth img {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+box .fourth h2 {
+    margin: 0 10px;
+}
+
+section .fourth img {
+    padding: 10px;
+}
+
+@media screen and (max-width:1200px) {
+
+    .lang .downloads {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+    }
+
+    .lang {
+        background-color: rgb(249, 249, 249);
+        width: 75vw;
+        height: 157px;
+        padding: 14px 20px;
+        text-align: center;
+
+    }
+    .second{
+        width: fit-content;
+    }
+
+}
